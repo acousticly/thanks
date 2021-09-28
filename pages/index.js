@@ -14,6 +14,18 @@ export default function Home() {
       <Head>
         <title>Thanks for Using Acoustic</title>
         <link rel="icon" href="/meta.webp" />
+        <meta property="og:title" content="Thanks for Using Acoustic" />
+        <meta
+          property="og:description"
+          content="Thanks for inviting us to your community 😊"
+        />
+        <meta property="og:url" content="https://thanks.acoustic.to" />
+        <meta property="og:image" content="/meta.webp" />
+        <meta property="og:image:secure_url" content="/meta.webp" />
+        <meta
+          name="description"
+          content="Thanks for inviting us to your community 😊"
+        ></meta>
       </Head>
 
       <main id="info" className={styles.main}>

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Device from './Device'
 const ReactRotatingText = require('react-rotating-text')
 export default function Home() {
   return (
@@ -13,21 +12,14 @@ export default function Home() {
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>
           Thanks for choosing
-          <Device>
-            {({ isMobile }) => {
-              if (isMobile) return <div>Acoustic</div>
-              return (
-                <ReactRotatingText
-                  items={[
-                    ' Acoustic',
-                    ' the best music bot',
-                    ' your newest server member',
-                    ' the coolest disk-jockie'
-                  ]}
-                />
-              )
-            }}
-          </Device>
+          <ReactRotatingText
+            items={[
+              ' Acoustic',
+              ' the best music bot',
+              ' your newest server member',
+              ' the coolest disk-jockie'
+            ]}
+          />
         </h1>
 
         <div className={styles.grid}>

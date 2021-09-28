@@ -13,8 +13,7 @@
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-rotating-text": "^1.4.1",
-    "splitting": "^1.0.6"
+    "react-rotating-text": "^1.4.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

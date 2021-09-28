@@ -26,14 +26,9 @@ html {
 }
 
 body {
-  background-image:#c799ff;background-image:  
-  radial-gradient(at 84% 34%, hsla(243,75%,73%,1) 0, transparent 52%),  
-  radial-gradient(at 41% 51%, hsla(160,65%,64%,1) 0, transparent 56%),  
-  radial-gradient(at 88% 36%, hsla(171,61%,71%,1) 0, transparent 59%),  
-  radial-gradient(at 87% 6%, hsla(323,89%,78%,1) 0, transparent 50%),  
-  radial-gradient(at 41% 47%, hsla(133,77%,60%,1) 0, transparent 56%),  
-  radial-gradient(at 89% 73%, hsla(322,78%,68%,1) 0, transparent 51%),  
-  radial-gradient(at 4% 37%, hsla(164,60%,60%,1) 0, transparent 49%);
+  background-image: url(../public/mesh-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   padding: 0;
   margin: 0;

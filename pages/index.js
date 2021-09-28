@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 const ReactRotatingText = require('react-rotating-text')
 import { BrowserView, MobileView } from 'react-device-detect'
+import PlausibleProvider from 'next-plausible'
 
 export default function Home() {
   return (

@@ -28,6 +28,8 @@ html {
 }
 body {
   background-image: url(../public/mesh-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -42,7 +44,6 @@ body {
 
 a {
   color: inherit;
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
   -webkit-background-clip: text;
   text-decoration: none;

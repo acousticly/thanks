@@ -1,12 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-if (
-  !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  )
-) {
-  const ReactRotatingText = require('react-rotating-text')
-}
+import Device from './Device'
+const ReactRotatingText = require('react-rotating-text')
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -18,14 +13,21 @@ export default function Home() {
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>
           Thanks for choosing
-          <ReactRotatingText
-            items={[
-              ' Acoustic',
-              ' the best music bot',
-              ' your newest server member',
-              ' the coolest disk-jockie'
-            ]}
-          />
+          <Device>
+            {({ isMobile }) => {
+              if (isMobile) return <div>Acoustic</div>
+              return (
+                <ReactRotatingText
+                  items={[
+                    ' Acoustic',
+                    ' the best music bot',
+                    ' your newest server member',
+                    ' the coolest disk-jockie'
+                  ]}
+                />
+              )
+            }}
+          </Device>
         </h1>
 
         <div className={styles.grid}>

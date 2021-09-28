@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Thanks for Using Acoustic</title>
+        <title>Thanks for choosing Acoustic</title>
         <meta name="theme-color" content="#2F3136" />
 
         <link rel="icon" href="/meta.webp" />
-        <meta property="og:title" content="Thanks for Using Acoustic" />
+        <meta property="og:title" content="Thanks for choosing Acoustic" />
         <meta
           property="og:description"
           content="Thanks for inviting us to your community 😊"

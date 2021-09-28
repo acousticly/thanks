@@ -1,14 +1,12 @@
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background-color: #000036;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
 }
-::-webkit-scrollbar {
-  width: 12px;
-  background-color: #000036;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: #f47850;
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
 }
 * {
   margin: 0;

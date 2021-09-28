@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background-image: url(../public/mesh-gradient.webp);
+  background-image: url(../public/mesh-gradient.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;

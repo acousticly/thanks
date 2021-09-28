@@ -1,0 +1,59 @@
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #000036;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000036;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #f47850;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+body {
+  background-image: url(../public/mesh-gradient.png);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-decoration: none;
+  font-weight: 700;
+  z-index: 1;
+}
+a:hover {
+  color: transparent;
+  transition: 500ms ease;
+}
+* {
+  box-sizing: border-box;
+  font-weight: 700;
+}

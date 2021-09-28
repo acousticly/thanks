@@ -42,19 +42,45 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  color: inherit;
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-decoration: none;
-  font-weight: 700;
-  z-index: 1;
-}
-a:hover {
-  color: transparent;
-  transition: 500ms ease;
-}
+
 * {
   box-sizing: border-box;
   font-weight: 700;
+}
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+ 
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.rainbow-text .char { 
+  
+  color: hsl(
+    calc(360deg * var(--char-percent)
+    ), 
+    90%, 
+    65%
+  );
+ 
+}
+
+.rainbow-text.animated .char {
+  animation: rainbow-colors 2s linear infinite;
+  animation-delay: calc(-2s * var(--char-percent));
+}
+@keyframes rainbow-colors {
+  0% { color: hsl(0turn, 90%, 65%); }
+  25% { color: hsl(.25turn, 90%, 65%); }
+  50% { color: hsl(.5turn, 90%, 65%); }
+  75% { color: hsl(.75turn, 90%, 65%); }
+  100% { color: hsl(1turn, 90%, 65%); }
 }

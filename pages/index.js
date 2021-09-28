@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+const ReactRotatingText = require('react-rotating-text')
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -11,7 +11,17 @@ export default function Home() {
 
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>
-          Thanks for choosing <a href="https://acoustic.to/invite">Acoustic!</a>
+          Thanks for choosing{' '}
+          <a href="https://acoustic.to/invite">
+            <ReactRotatingText
+              items={[
+                'Acoustic',
+                'the best music bot',
+                'your newest server member',
+                'the coolest disk-jockie'
+              ]}
+            />
+          </a>
         </h1>
 
         <div className={styles.grid}>

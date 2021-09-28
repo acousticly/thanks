@@ -3,9 +3,7 @@ import styles from '../styles/Home.module.css'
 const ReactRotatingText = require('react-rotating-text')
 import {
   BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
+  MobileView
 } from 'react-device-detect'
 
 export default function Home() {

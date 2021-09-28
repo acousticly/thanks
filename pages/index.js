@@ -2,11 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 const ReactRotatingText = require('react-rotating-text')
 import { BrowserView, MobileView } from 'react-device-detect'
-import PlausibleProvider from 'next-plausible'
 
 export default function Home() {
   return (
-    <PlausibleProvider domain="thanks.acoustic.to">
       <div className={styles.container}>
         <Head>
           <title>Thanks for Using Acoustic</title>
@@ -69,6 +67,5 @@ export default function Home() {
           </div>
         </main>
       </div>
-    </PlausibleProvider>
   )
 }

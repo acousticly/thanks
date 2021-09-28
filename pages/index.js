@@ -62,8 +62,7 @@ export default function Home() {
           <a href="https://acoustic.to/vote" className={styles.card}>
             <h3>Vote for Acoustic &rarr;</h3>
             <p>
-              Feel free to vote for us if you like what we're doing. It's like a
-              free donation.
+             Go ahead and vote for us if you like what we're doing.
             </p>
           </a>
         </div>

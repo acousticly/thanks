@@ -46,7 +46,7 @@ export default function Home() {
         ></meta>
         <meta
           name="twitter:image"
-          content="https://thanks.acoustic.to//meta.webp"
+          content="/meta.webp"
         ></meta>
       </Head>
 

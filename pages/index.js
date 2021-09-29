@@ -49,7 +49,7 @@ export default function Home() {
 
           <a href="https://docs.acoustic.to" className={styles.card}>
             <h3>Learn &rarr;</h3>
-            <p>Learn about Acoustic with gifs and helpful docs!</p>
+            <p>Learn about Acoustic with gifs and other helpful resources!</p>
           </a>
 
           <a href="https://acoustic.to/invite" className={styles.card}>

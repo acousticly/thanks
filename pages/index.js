@@ -23,6 +23,20 @@ export default function Home() {
           name="description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
+<meta itemprop="name" content="Thanks for choosing Acoustic"></meta>
+<meta itemprop="description" content="Thanks for inviting us to your community 😊"></meta>
+<meta itemprop="image" content="https://thanks.acoustic.to//meta.webp"></meta>
+
+<meta property="og:url" content="https://thanks.acoustic.to"></meta>
+<meta property="og:type" content="website"></meta>
+<meta property="og:title" content="Thanks for choosing Acoustic"></meta>
+<meta property="og:description" content="Thanks for inviting us to your community 😊"></meta>
+<meta property="og:image" content="https://thanks.acoustic.to//meta.webp"></meta>
+
+<meta name="twitter:card" content="summary_large_image"></meta>
+<meta name="twitter:title" content="Thanks for choosing Acoustic"></meta>
+<meta name="twitter:description" content="Thanks for inviting us to your community 😊"></meta>
+<meta name="twitter:image" content="https://thanks.acoustic.to//meta.webp"></meta>
       </Head>
 
       <main id="info" className={styles.main}>

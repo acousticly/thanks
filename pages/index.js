@@ -32,7 +32,7 @@ export default function Home() {
         ></meta>
         <meta
           property="og:image"
-          content="https://thanks.acoustic.to//meta.webp"
+          content="/meta.webp"
         ></meta>
 
         <meta name="twitter:card" content="summary_large_image"></meta>

@@ -23,10 +23,6 @@ export default function Home() {
           name="description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-<meta itemprop="name" content="Thanks for choosing Acoustic"></meta>
-<meta itemprop="description" content="Thanks for inviting us to your community 😊"></meta>
-<meta itemprop="image" content="https://thanks.acoustic.to//meta.webp"></meta>
-
 <meta property="og:url" content="https://thanks.acoustic.to"></meta>
 <meta property="og:type" content="website"></meta>
 <meta property="og:title" content="Thanks for choosing Acoustic"></meta>

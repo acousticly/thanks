@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-const ReactRotatingText = require('react-rotating-text')
 import { BrowserView, MobileView } from 'react-device-detect'
+const ReactRotatingText = require('react-rotating-text')
 
 export default function Home() {
   return (

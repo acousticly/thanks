@@ -57,9 +57,9 @@ export default function Home() {
             <ReactRotatingText
               items={[
                 ' Acoustic',
-                ' the best music bot',
+                ' the most helpful bot',
                 ' your newest server member',
-                ' the coolest disk-jockie'
+                ' the crispiest lad'
               ]}
             />
           </BrowserView>

@@ -30,10 +30,7 @@ export default function Home() {
           property="og:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-        <meta
-          property="og:image"
-          content="/meta.webp"
-        ></meta>
+        <meta property="og:image" content="/meta.webp"></meta>
 
         <meta name="twitter:card" content="summary_large_image"></meta>
         <meta
@@ -44,10 +41,7 @@ export default function Home() {
           name="twitter:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-        <meta
-          name="twitter:image"
-          content="/meta.webp"
-        ></meta>
+        <meta name="twitter:image" content="/meta.webp"></meta>
       </Head>
 
       <main id="info" className={styles.main}>

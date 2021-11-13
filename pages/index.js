@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { BrowserView, MobileView } from 'react-device-detect'
 const ReactRotatingText = require('react-rotating-text')
 
 export default function Home() {
@@ -47,7 +46,7 @@ export default function Home() {
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>
           Thanks for choosing
-          <BrowserView>
+          <div className="browser">
             <ReactRotatingText
               items={[
                 ' Acoustic',
@@ -56,8 +55,8 @@ export default function Home() {
                 ' the crispiest lad'
               ]}
             />
-          </BrowserView>
-          <MobileView>Acoustic</MobileView>
+          </div>
+          <div className="mobile">Acoustic</div>
         </h1>
 
         <div className={styles.grid}>

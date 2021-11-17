@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 const ReactRotatingText = require('react-rotating-text')
 
 export default function Home() {
@@ -42,8 +43,13 @@ export default function Home() {
         ></meta>
         <meta name="twitter:image" content="/meta.webp"></meta>
       </Head>
-
       <main id="info" className={styles.main}>
+        <Image
+          className="background__img"
+          src="/mesh-gradient.png"
+          alt="background img"
+          layout="fill"
+        />
         <h1 className={styles.title}>
           Thanks for choosing
           <div className="browser">

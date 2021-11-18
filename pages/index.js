@@ -8,7 +8,17 @@ export default function Home() {
       <Head>
         <title>Thanks for choosing Acoustic</title>
         <meta name="theme-color" content="#2F3136" />
-
+        <link rel="preconnect" href="https://docs.acoustic.to"></link>
+        <link rel="preconnect" href="https://www.patreon.com/acousticly"></link>
+        <link rel="preconnect" href="https://discord.com"></link>
+        <link rel="preconnect" href="https://top.gg"></link>
+        <link rel="dns-prefetch" href="https://docs.acoustic.to"></link>
+        <link
+          rel="dns-prefetch"
+          href="https://www.patreon.com/acousticly"
+        ></link>
+        <link rel="dns-prefetch" href="https://discord.com"></link>
+        <link rel="dns-prefetch" href="https://top.gg"></link>
         <link rel="icon" href="/meta.webp" />
         <meta property="og:title" content="Thanks for choosing Acoustic" />
         <meta

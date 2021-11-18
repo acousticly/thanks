@@ -44,12 +44,6 @@ export default function Home() {
         <meta name="twitter:image" content="/meta.webp"></meta>
       </Head>
       <main id="info" className={styles.main}>
-        <Image
-          className="background__img"
-          src="/mesh-gradient.png"
-          alt="background img"
-          layout="fill"
-        />
         <h1 className={styles.title}>
           Thanks for choosing
           <div className="browser">

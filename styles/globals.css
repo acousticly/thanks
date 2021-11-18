@@ -40,6 +40,8 @@ html {
 
 body {
   color: #ffffff;
+  background: url(/mesh-gradient.png);
+  background-size: cover;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -49,11 +51,6 @@ body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.background__img {
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 * {
   box-sizing: border-box;

@@ -60,7 +60,17 @@ body {
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
     infinite;
 }
-
+.fourohfour {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #000000;
+}
 @keyframes blinking-cursor {
   0% {
     opacity: 0;

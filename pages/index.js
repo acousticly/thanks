@@ -9,11 +9,11 @@ export default function Home() {
         <title>Thanks for choosing Acoustic</title>
         <meta name="theme-color" content="#2F3136" />
         <link rel="preconnect" href="https://docs.acoustic.to" />
-        <link rel="preconnect" href="https://www.patreon.com/acousticly" />
+        <link rel="preconnect" href="https://www.patreon.com" />
         <link rel="preconnect" href="https://discord.com" />
         <link rel="preconnect" href="https://top.gg" />
         <link rel="dns-prefetch" href="https://docs.acoustic.to" />
-        <link rel="dns-prefetch" href="https://www.patreon.com/acousticly" />
+        <link rel="dns-prefetch" href="https://www.patreon.com" />
         <link rel="dns-prefetch" href="https://discord.com" />
         <link rel="dns-prefetch" href="https://top.gg" />
         <meta property="og:title" content="Thanks for choosing Acoustic" />

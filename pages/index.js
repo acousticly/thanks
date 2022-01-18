@@ -22,8 +22,6 @@ export default function Home() {
           content="Thanks for inviting us to your community 😊"
         />
         <meta property="og:url" content="https://thanks.acoustic.to" />
-        <meta property="og:image" content="/meta.webp" />
-        <meta property="og:image:secure_url" content="/meta.webp" />
         <meta
           name="description"
           content="Thanks for inviting us to your community 😊"
@@ -35,9 +33,6 @@ export default function Home() {
           property="og:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-        <meta property="og:image" content="/meta.webp"></meta>
-
-        <meta name="twitter:card" content="summary_large_image"></meta>
         <meta
           name="twitter:title"
           content="Thanks for choosing Acoustic"
@@ -46,7 +41,6 @@ export default function Home() {
           name="twitter:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-        <meta name="twitter:image" content="/meta.webp"></meta>
       </Head>
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>

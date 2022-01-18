@@ -40,7 +40,7 @@ html {
 
 body {
   color: #ffffff;
-  background: url(/mesh-gradient.png);
+  background: url(https://raw.githubusercontent.com/acousticly/cdn/master/bg.png);
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -59,6 +59,12 @@ body {
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
     infinite;
 }
+
+.button-fat {
+  all: unset;
+  cursor: pointer;
+}
+
 .fourohfour {
   position: absolute;
   top: 50%;

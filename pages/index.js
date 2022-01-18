@@ -46,14 +46,27 @@ export default function Home() {
         <h1 className={styles.title}>
           Thanks for choosing
           <div className="browser">
-            <ReactRotatingText
-              items={[
-                ' Acoustic',
-                ' the most helpful bot',
-                ' your newest server member',
-                ' the crispiest lad'
-              ]}
-            />
+            <button className="button-fat">
+              <ReactRotatingText
+                items={[
+                  ' Acoustic',
+                  ' the most helpful bot',
+                  ' your newest server member',
+                  ' the crispiest lad',
+                  ' a mans best friend',
+                  ' has lots of lore',
+                  " I've lost 36 jobs please help I need a stable income :(",
+                  ' https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                  ' hey you really should vote!',
+                  ' the bot with the most AWESOME team out there!',
+                  " the bot that isn't a guitar nor has relations to one",
+                  ' a cool support server',
+                  ' a glorified mp3 player',
+                  ' dude vote for us',
+                  ' now 😡'
+                ]}
+              />
+            </button>
           </div>
           <div className="mobile">Acoustic</div>
         </h1>
@@ -70,14 +83,14 @@ export default function Home() {
           </a>
 
           <a href="https://acoustic.to/invite" className={styles.card}>
-            <h3>Invite us to your servers &rarr;</h3>
+            <h3>Invite us to your other servers &rarr;</h3>
             <p>
               You like us that much? By all means, we'd love to jam with you.
             </p>
           </a>
 
           <a href="https://acoustic.to/vote" className={styles.card}>
-            <h3>Vote for Acoustic &rarr;</h3>
+            <h3>Vote for us &rarr;</h3>
             <p>Go ahead and vote for us if you like what we're doing.</p>
           </a>
         </div>

@@ -33,7 +33,6 @@ export default function Home() {
           property="og:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-        <meta name="twitter:card" content="summary_large_image"></meta>
         <meta
           name="twitter:title"
           content="Thanks for choosing Acoustic"
@@ -42,7 +41,6 @@ export default function Home() {
           name="twitter:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
-        <meta name="twitter:image" content="/meta.webp"></meta>
       </Head>
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>

@@ -1,3 +1,11 @@
-export default function Custom404() {
-  return <h1 className="fourohfour">404 - Page Not Found</h1>
+import Custom404 from '../components/404'
+
+const custom404 = () => {
+  return (
+    <>
+      <Custom404 />
+    </>
+  )
 }
+
+export default custom404

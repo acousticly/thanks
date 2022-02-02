@@ -11,15 +11,15 @@
   },
   "dependencies": {
     "critters": "^0.0.16",
-    "next": "^12.0.9",
+    "next": "^12.0.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-rotating-text": "^1.4.1",
-    "sharp": "^0.29.3"
+    "sharp": "^0.30.0"
   },
   "devDependencies": {
-    "eslint": "^8.7.0",
-    "eslint-config-next": "^12.0.9",
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.10",
     "prettier": "^2.5.1"
   },
   "optionalDependencies": {

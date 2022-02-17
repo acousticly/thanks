@@ -53,7 +53,7 @@ export default function Home() {
                   ' the most helpful bot',
                   ' your newest server member',
                   ' the crispiest lad',
-                  ' man\'s best friend',
+                  " man's best friend",
                   ' has lots of lore',
                   " I've lost 36 jobs please help I need a stable income :(",
                   ' https://youtube.com/watch?v=dQw4w9WgXcQ',

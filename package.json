@@ -12,25 +12,25 @@
   "dependencies": {
     "@prefresh/babel-plugin": "^0.4.3",
     "critters": "^0.0.16",
-    "next": "^12.1.0",
+    "next": "^12.1.4",
     "next-plugin-preact": "^3.0.6",
-    "preact": "^10.6.6",
-    "preact-render-to-string": "^5.1.19",
+    "preact": "^10.7.0",
+    "preact-render-to-string": "^5.1.20",
     "preact-ssr-prepass": "^1.2.0",
     "react": "npm:@preact/compat@^17.0.3",
     "react-dom": "npm:@preact/compat@^17.0.3",
     "react-rotating-text": "^1.4.1",
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0",
-    "sharp": "^0.30.1",
-    "webpack": "^5.69.1"
+    "sharp": "^0.30.3",
+    "webpack": "^5.70.0"
   },
   "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-next": "^12.1.0",
-    "prettier": "^2.5.1"
+    "eslint": "^8.12.0",
+    "eslint-config-next": "^12.1.4",
+    "prettier": "^2.6.1"
   },
   "optionalDependencies": {
-    "@babel/core": "^7.17.5",
-    "typescript": "^4.5.5"
+    "@babel/core": "^7.17.8",
+    "typescript": "^4.6.3"
   }
 }

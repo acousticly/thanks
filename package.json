@@ -22,7 +22,7 @@
     "react-rotating-text": "^1.4.1",
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0",
     "sharp": "^0.30.7",
-    "webpack": "^5.73.0"
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "eslint": "^8.20.0",

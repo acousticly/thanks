@@ -12,10 +12,12 @@ export default function Home() {
         <link rel="preconnect" href="https://www.patreon.com" />
         <link rel="preconnect" href="https://discord.com" />
         <link rel="preconnect" href="https://top.gg" />
+        <link rel="preconnect" href="https://acoustic.to" />
         <link rel="dns-prefetch" href="https://docs.acoustic.to" />
         <link rel="dns-prefetch" href="https://www.patreon.com" />
         <link rel="dns-prefetch" href="https://discord.com" />
         <link rel="dns-prefetch" href="https://top.gg" />
+        <link rel="dns-prefetch" href="https://acoustic.to" />
         <meta property="og:title" content="Thanks for choosing Acoustic" />
         <meta
           property="og:description"

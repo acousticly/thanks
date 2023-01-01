@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-const ReactRotatingText = require('react-rotating-text')
+import RotatingText from '../components/RotatingText'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Thanks for choosing Acoustic</title>
         <meta name="theme-color" content="#2F3136" />
@@ -43,13 +43,15 @@ export default function Home() {
           name="twitter:description"
           content="Thanks for inviting us to your community 😊"
         ></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main id="info" className={styles.main}>
         <h1 className={styles.title}>
           Thanks for choosing
           <div className="browser">
             <button className="button-fat">
-              <ReactRotatingText
+              <RotatingText
                 items={[
                   ' Acoustic',
                   ' the most helpful bot',
@@ -97,6 +99,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-    </div>
+    </>
   )
 }

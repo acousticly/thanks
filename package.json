@@ -7,30 +7,22 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"**/*.{js,css}\""
+    "format": "prettier --write \"**/*.{tsx,css}\""
   },
   "dependencies": {
-    "@prefresh/babel-plugin": "^0.4.3",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
     "critters": "^0.0.16",
-    "next": "^12.2.3",
-    "next-plugin-preact": "^3.0.7",
-    "preact": "^10.10.0",
-    "preact-render-to-string": "^5.2.1",
-    "preact-ssr-prepass": "^1.2.0",
-    "react": "npm:@preact/compat@^17.1.1",
-    "react-dom": "npm:@preact/compat@^17.1.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-rotating-text": "^1.4.1",
-    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0",
-    "sharp": "^0.30.7",
-    "webpack": "^5.74.0"
+    "typescript": "4.9.4"
   },
   "devDependencies": {
-    "eslint": "^8.20.0",
-    "eslint-config-next": "^12.2.3",
-    "prettier": "^2.7.1"
-  },
-  "optionalDependencies": {
-    "@babel/core": "^7.18.9",
-    "typescript": "^4.7.4"
+    "prettier": "^2.8.1"
   }
 }
